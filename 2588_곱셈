@@ -1,0 +1,8 @@
+a = []
+a.append(int(input()))
+a.append(int(input()))
+
+print(a[0] * (a[1]%10))
+print(a[0] * ((a[1]//10)%10))
+print(a[0] * (a[1]//100))
+print(a[0] * a[1])
