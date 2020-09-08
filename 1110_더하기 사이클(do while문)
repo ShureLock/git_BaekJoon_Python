@@ -1,0 +1,14 @@
+#       Python에서 do while문 구현
+import sys
+
+n = int(sys.stdin.readline())
+new = n
+cycle = 0
+while True:
+    temp = new//10 + new%10
+    new = (new%10)*10 + temp%10
+    cycle += 1
+    if new != n:
+        continue
+    break
+print(cycle)
