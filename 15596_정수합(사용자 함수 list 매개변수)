@@ -1,0 +1,12 @@
+def solve1(a:list) -> int:
+    return sum(a)
+
+a = solve1([1,2,3])
+print(a)
+
+
+def solve2(a:tuple) -> int:
+    return sum(a)
+
+a = solve2((1,2,3))
+print(a)
